@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "SweetAlert";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<script src="~/Scripts/jquery-3.4.1.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<br />
+<button class="btn btn-danger" id="btn1">sil</button>
+<button class="btn btn-warning" id="btn2">güncelle</button>
+<button class="btn btn-primary" id="btn3">Kaydet</button>
+
+
+<script>
+    $('#btn1').click(function () {
+        swal("Hello world!");
+    })
+</script>
+
+<script>
+    $('#btn1').click(function () {
+        swal("Hello world!","sweet alert");
+    })
+</script>
+
+<script>
+    $('#btn1').click(function () {
+        swal("Hello world!", "sweet alert","success");
+    })
+</script>

@@ -18,6 +18,7 @@ namespace EntityLayer.Concrete
         public DateTime ContentDate { get; set; }
         //content yazar
         //content başlık
+        public bool ContentStatus { get; set; }
 
         public int HeadingID { get; set; }
         public virtual Heading Heading { get; set; }

@@ -18,3 +18,10 @@ C:\Users\unver\OneDrive\Masaüstü\C#MVC\DataAccessLayer\obj\Debug\DataAccessLay
 C:\Users\unver\OneDrive\Masaüstü\C#MVC\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writer_edit.resources
 C:\Users\unver\OneDrive\Masaüstü\C#MVC\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writertitle_add.resources
 C:\Users\unver\OneDrive\Masaüstü\C#MVC\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_imagesizechange.resources
+C:\Users\unver\OneDrive\Masaüstü\C#MVC\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writer_addstatus.resources
+C:\Users\unver\OneDrive\Masaüstü\C#MVC\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_contentstatusadd.resources
+C:\Users\unver\OneDrive\Masaüstü\C#MVC\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_headingstatusadd.resources
+C:\Users\unver\OneDrive\Masaüstü\C#MVC\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_add_message.resources
+C:\Users\unver\OneDrive\Masaüstü\C#MVC\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_contact_adddate.resources
+C:\Users\unver\OneDrive\Masaüstü\C#MVC\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_addimage.resources
+C:\Users\unver\OneDrive\Masaüstü\C#MVC\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_admin_table.resources

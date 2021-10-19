@@ -92,3 +92,7 @@ C:\Users\unver\OneDrive\Masaüstü\C#MVC\MvcProjeKampi\bin\EntityFramework.SqlSe
 C:\Users\unver\OneDrive\Masaüstü\C#MVC\MvcProjeKampi\bin\EntityFramework.SqlServer.xml
 C:\Users\unver\OneDrive\Masaüstü\C#MVC\MvcProjeKampi\bin\FluentValidation.dll
 C:\Users\unver\OneDrive\Masaüstü\C#MVC\MvcProjeKampi\bin\FluentValidation.xml
+C:\Users\unver\OneDrive\Masaüstü\C#MVC\MvcProjeKampi\bin\PagedList.dll
+C:\Users\unver\OneDrive\Masaüstü\C#MVC\MvcProjeKampi\bin\PagedList.Mvc.dll
+C:\Users\unver\OneDrive\Masaüstü\C#MVC\MvcProjeKampi\bin\PagedList.xml
+C:\Users\unver\OneDrive\Masaüstü\C#MVC\MvcProjeKampi\bin\PagedList.Mvc.xml

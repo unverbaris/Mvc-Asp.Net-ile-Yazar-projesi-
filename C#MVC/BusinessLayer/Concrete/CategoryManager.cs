@@ -42,7 +42,6 @@ namespace BusinessLayer.Concrete
 
 
 
-        //ctrl k d düzenleme
 
         public List<Category> GetList()
         {

@@ -24,6 +24,13 @@ namespace MvcProjeKampi.Controllers
             return View(headingValues);
         }
 
+        public ActionResult HeadingReport()
+        {
+            var headingValues = hm.GetList();
+
+            return View(headingValues);
+        }
+
         [HttpGet]
         public ActionResult AddHeading()//drop down listeme methodu
         {
@@ -52,6 +59,38 @@ namespace MvcProjeKampi.Controllers
             return RedirectToAction("Index");
 
         }
+        [HttpGet]
+       public ActionResult EditHeading(int id)
+        {
+            List<SelectListItem> valueCategory = (from x in cm.GetList()
+                                                  select new SelectListItem
+                                                  {
+                                                      Text = x.CategoryName,
+                                                      Value = x.CategoryID.ToString()
+                                                  }).ToList();
 
+
+            ViewBag.vlc = valueCategory;
+            var HeadingValue = hm.GetByID(id);
+            return View(HeadingValue);
+
+        }
+
+        [HttpPost]
+        public ActionResult EditHeading(Heading p)
+        {
+            hm.HeadingUpdate(p);
+            return RedirectToAction("Index");
+
+        }
+
+        public ActionResult DeleteHeading(int id)
+        {
+            var HeadingValue = hm.GetByID(id);
+            HeadingValue.HeadingStatus = false;
+
+            hm.HeadingDelete(HeadingValue);
+            return RedirectToAction("Index");
+        }
     }
 }
